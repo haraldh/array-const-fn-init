@@ -1,0 +1,23 @@
+[package]
+name = "array-const-fn-init"
+version = "0.1.0"
+authors = ["Harald Hoyer <harald@redhat.com>"]
+edition = "2018"
+
+license = "MIT/Apache-2.0"
+documentation = "https://docs.rs/array-const-fn-init"
+homepage = "https://github.com/haraldh/array-const-fn-init"
+repository = "https://github.com/haraldh/array-const-fn-init"
+description = "Initializes an array with constant values calculated by a `const fn`"
+readme = "README.md"
+
+keywords = ["array", "init", "const"]
+categories = ["no-std", "data-structures"]
+
+[lib]
+proc-macro = true
+name = "array_const_fn_init"
+path = "src/lib.rs"
+
+[dependencies]
+
